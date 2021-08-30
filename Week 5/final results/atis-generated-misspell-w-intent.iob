@@ -1,0 +1,7 @@
+BOS hwo many fares are there one wey from tacoma to montreal EOS	O O O O O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name atis_quantity
+BOS please list the flght times ffom pittsburgh to newark EOS	O O O B-flight_time I-flight_time O B-fromloc.city_name O B-toloc.city_name atis_flight_time
+BOS how many flights arriwe at generla mitchell international EOS	O O O O O B-toloc.airport_name I-toloc.airport_name I-toloc.airport_name atis_quantity
+BOS now id like a schedule for thre fligth om tuesday orning from oakland no from dallas fort worths to atlanta EOS	O O O O B-flight_time O O O O B-depart_date.day_name B-depart_time.period_of_day O B-fromloc.city_name O O B-fromloc.city_name I-fromloc.city_name I-fromloc.city_name O B-toloc.city_name atis_flight_time
+BOS wahat time does flight aa 459 depart EOS	O B-flight_time O O B-airline_code B-flight_number O atis_flight_time
+BOS i would loke the tome your earliest flight from washington for philadelphia EOS	O O O O B-flight_time O B-flight_mod O O B-fromloc.city_name O B-toloc.city_name atis_flight_time
+BOS what is deltas schedule of morning flights ro Atlanta EOS	O O B-airline_name B-flight_time O B-depart_time.period_of_day O O B-toloc.city_name atis_flight_time

@@ -1,0 +1,84 @@
+BOS which airlines fly from baltimore to washington dc via other areas EOS	O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O atis_airline
+BOS what varieties of ground transportation are there to general quentin airport EOS	O O O O O O O O B-toloc.airport_name I-toloc.airport_name I-toloc.airport_name atis_ground_service
+BOS id like to find the most affordable two way fare from boston to springfield EOS	O O O O O B-cost_relative I-cost_relative B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS point me ground transportation in minneapolis and in indianapolis EOS	O O O O O B-city_name O O B-city_name atis_ground_service
+BOS what does trips code y mean EOS	O O O O B-fare_basis_code O atis_abbreviation
+BOS ground transportations in arizona EOS	O O O B-city_name atis_ground_service
+BOS what is the price of a flight from oakland to kansas EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS could you please book me the round trip fare from houston to portland EOS	O O O O O O B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS which airlines fly from miami to ny city but lands in some other city EOS	O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O O O O atis_airline
+BOS goods transportation in oakland EOS	O O O B-city_name atis_ground_service
+BOS okay i would like to hear the type of aircraft flying on a project from mexico to dallas please EOS	O O O O O O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O atis_aircraft
+BOS what airlines take from st. petersburg to sox and from pacers to tacoma EOS	O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-fromloc.city_name O B-toloc.city_name atis_airline
+BOS what is the first class price from hopkins to clippers EOS	O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS could you please tell me the airlines that aviate from montreal to san luis EOS	O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name atis_airline
+BOS what are economy fares from desperados to baltimore EOS	O O B-economy O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS what is the lowest travel fare that delta has between disneyland and new francisco EOS	O O O B-cost_relative I-cost_relative O O B-airline_name O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name atis_airfare
+BOS round trip fly fares from vancouver to philadelphia less than 25000 dollars EOS	B-round_trip I-round_trip O O O B-fromloc.city_name O B-toloc.city_name B-cost_relative O B-fare_amount I-fare_amount atis_airfare
+BOS does any airline have a fast flight between hartford and baltimore EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name atis_airline
+BOS show me all first class prices from buffalo to miami EOS	O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS show me ground transportation information for nearby area EOS	O O O O O O B-city_name I-city_name atis_ground_service
+BOS list me the fares from dallas to san francisco EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name atis_airfare
+BOS what ground transportation is there in cincinnati EOS	O O O O O O B-city_name atis_ground_service
+BOS what are the coach fares for flights from wilmington to boheme leaving after 11 pm EOS	O O O B-class_type O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time atis_airfare
+BOS please give me round trip fares from montreal to vancouver EOS	O O O B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS what is lowest cost air fare available for a fly from savannah to baltimore arriving on july 4th EOS	O O B-cost_relative I-cost_relative O O O O O O O B-fromloc.city_name O B-toloc.city_name O O B-arrive_date.month_name B-arrive_date.day_number atis_airfare
+BOS what form of ground transit is there once i get to dallas EOS	O O O O O O O O O O O B-city_name atis_ground_service
+BOS what variety of land transportation is available in denver EOS	O O O O O O O O B-city_name atis_ground_service
+BOS what is the cheap transportation i can get from dallas to denver EOS	O O O B-cost_relative O O O O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS what kinds of ground transportation is available in dallas fortress worth EOS	O O O O O O O O B-city_name I-city_name I-city_name atis_ground_service
+BOS can you tell me the lowest one way fare from washington to san josé EOS	O O O O O B-cost_relative B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name atis_airfare
+BOS what airline are there EOS	O O O O atis_airline
+BOS what are the ground transportation support in florida EOS	O O O O O O O B-city_name atis_ground_service
+BOS ground transport washington EOS	O O B-city_name atis_ground_service
+BOS what airlines fly between detroit and atlanta EOS	O O O O B-fromloc.city_name O B-toloc.city_name atis_airline
+BOS is there ground transportation from the atlanta aerodrome to downtown atlanta EOS	O O O O O O B-fromloc.airport_name I-fromloc.airport_name O O B-toloc.city_name atis_ground_service
+BOS um could you get me a round trip ticket from indianapolis to virginia city EOS	O O O O O O B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name atis_airfare
+BOS what ground transportation is up in newark EOS	O O O O O O B-city_name atis_ground_service
+BOS in denver what sort of ground transportation is there from the airdrome to downtown EOS	O B-city_name O O O O O O O O O O O O atis_ground_service
+BOS show me all fares between detroit and san francisco that are less than two-hundred dollars one way EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-cost_relative O B-fare_amount I-fare_amount B-round_trip I-round_trip atis_airfare
+BOS bring me the cheapest fare from worcester to baltimore EOS	O O O B-cost_relative O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS whats the affordable flights from san francisco to baltimore EOS	O O B-cost_relative O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS id like to realize what like of plane flies from philadelphia to l.a. fort worth after 530 EOS	O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name B-depart_time.time_relative B-depart_time.time atis_aircraft
+BOS show me the 1st class fares from baltimore to dallas EOS	O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS show me about the ground transfer in beantown EOS	O O O O O O O B-city_name atis_ground_service
+BOS please tell me how many nonstop flights there are from beantown to atlanta EOS	O O O O O B-flight_stop O O O O B-fromloc.city_name O B-toloc.city_name atis_quantity
+BOS provide me the fares for delta flights from dallas to san jose EOS	O O O O O B-airline_name O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name atis_airfare
+BOS what type of planes are involved on trips from cleveland to norfolk that leave before noon EOS	O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.time_relative B-depart_time.time atis_aircraft
+BOS ground transportation in connecticut EOS	O O O B-city_name atis_ground_service
+BOS send me all ground transportation in washington dc EOS	O O O O O O B-city_name B-state_code atis_ground_service
+BOS someone wants a flight from denver to atlanta with a stopover in alaska is this possible EOS	O O O O O B-fromloc.city_name O B-toloc.city_name O O O O B-stoploc.city_name O O O atis_airfare
+BOS present me the airlines that fly from san francisco to boston EOS	O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name atis_airline
+BOS is there bronco service available at marlins airport EOS	O O B-transport_type O O O B-airport_name I-airport_name atis_ground_service
+BOS can i have a rental car in dallas EOS	O O O O B-transport_type I-transport_type O B-city_name atis_ground_service
+BOS how much is the american airlines flight 71 from dallas to san francisco price EOS	O O O O B-airline_name I-airline_name O B-flight_number O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O atis_airfare
+BOS first class round trip coach from indiana to memphis EOS	B-class_type I-class_type B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS tell me about ground transit at san francisco EOS	O O O O O O B-city_name I-city_name atis_ground_service
+BOS how many nonstop flights going from tokyo to oakland july twenty sixth EOS	O O B-flight_stop O O O B-fromloc.city_name O B-toloc.city_name B-arrive_date.month_name B-arrive_date.day_number I-arrive_date.day_number atis_quantity
+BOS what airlines fly out of atlanta EOS	O O O O O B-fromloc.city_name atis_airline
+BOS what type of aircraft go from here to washington dc at one am EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_time.time I-depart_time.time atis_aircraft
+BOS i want the cheapest one way transportation from texas to atlanta please EOS	O O O B-cost_relative B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name O atis_airfare
+BOS what is the priciest one way route from boston to richmond EOS	O O O B-cost_relative B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS how many airplane are there between san francisco and cincinnati on september eighteenth EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.month_name B-depart_date.day_number atis_quantity
+BOS how much is a economic class ticket from columbus to san diego EOS	O O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name atis_airfare
+BOS list number of aircraft that fly between stockton and san francisco EOS	O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name atis_aircraft
+BOS information about ground transportation from airdrome to downtown madison EOS	O O O O O O O O B-toloc.city_name atis_ground_service
+BOS what airplanes does nation use EOS	O O O B-airline_name O atis_aircraft
+BOS show the cheapest one way fly from boston to sacramento EOS	O O B-cost_relative B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS please send me the prices for all flights from straford to hartford this saturday EOS	O O O O O O O O O B-fromloc.city_name O B-toloc.airport_name I-toloc.airport_name B-depart_date.date_relative B-depart_date.day_name atis_airfare
+BOS find all airlines operating from pittsburgh to san francisco EOS	O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name atis_airline
+BOS is there ground transports from the minneapolis airport to the downtown region EOS	O O O O O O B-airport_name I-airport_name O O O O atis_ground_service
+BOS could you help me with schedule of transports for atlantis and delta to dfw on feb 28th EOS	O O O O O B-flight_time O O O B-airline_name O B-airline_name O B-toloc.airport_code O B-depart_date.month_name B-depart_date.day_number atis_flight_time
+BOS what is the price for these flights from baltimore to philadelphia EOS	O O O O O O O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS how many transportation codes belong to economic class EOS	O O O O O O B-economy I-economy atis_quantity
+BOS show me the cheapest round trip fare from syracuse to mavericks EOS	O O O B-cost_relative B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS what are the most expensive 1st class ticket between atlanta and melbourne EOS	O O O B-cost_relative I-cost_relative B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS what is the cheapest transportation one way between pittsburgh and denver EOS	O O O B-cost_relative O B-round_trip I-round_trip O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS whats the lowest round trip fare from spurs to scott EOS	O O B-cost_relative B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS show me airline going from pittsburgh going to denver and then proceeding to san francisco on mon EOS	O O O O O B-fromloc.city_name O O B-toloc.city_name O O O O B-toloc.city_name I-toloc.city_name O B-depart_date.day_name atis_airline
+BOS how much is a business class ticket from washington to san francisco leaving on fri EOS	O O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-depart_date.day_name atis_airfare
+BOS give me the most expensive first class round trip ticket on us air from cleveland to knoxville EOS	O O O B-cost_relative I-cost_relative B-class_type I-class_type B-round_trip I-round_trip O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name atis_airfare
+BOS please send the flight times from newark to california EOS	O O O B-flight_time I-flight_time O B-fromloc.city_name O B-toloc.city_name atis_flight_time
+BOS is there an intercity limousine at the brussels airport EOS	O O O B-transport_type I-transport_type O O B-airport_name I-airport_name atis_ground_service
+BOS how many countries are served by continental with economy class flights EOS	O O O O O O B-airline_name O B-class_type I-class_type O atis_quantity
+BOS whats the next biggest airplane after a 707 EOS	O O O B-mod O O O O atis_aircraft
